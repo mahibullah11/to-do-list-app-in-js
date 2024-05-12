@@ -48,6 +48,7 @@ body{
     margin-left: 8px;
     cursor: pointer;
     padding: 12px 24px;
+    border-radius: 10px;
 }
 .input-container input[type="button"]:hover{
     background-color: black;
@@ -72,5 +73,23 @@ ul li{
     background-color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between  ;
+    transition: background-color 0.5s;
+}
+ul li:hover{
+   background-color: #cbcacd;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.deleteBtn{
+    color: #eb4034;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 10px;
 }
